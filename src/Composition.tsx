@@ -14,7 +14,7 @@ const Slide: React.FC<{text: string}> = ({text}) => {
 	)
 }
 
-const HelloWorld: React.FC = () => {
+const Component: React.FC = () => {
 	return (
 		<AbsoluteFill style={{backgroundColor: 'white'}}>
 			{slides.map((text: string, i: number) => 
@@ -25,4 +25,4 @@ const HelloWorld: React.FC = () => {
 		</AbsoluteFill>
 	)
 }
-export { HelloWorld }
+export { Component }
